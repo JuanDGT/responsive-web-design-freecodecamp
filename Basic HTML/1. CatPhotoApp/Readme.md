@@ -18,7 +18,7 @@ This project was built as part of **FreeCodeCamp HTML & CSS exercises** and is s
 
 ## Live Demo
 
-[Visit FreeCatPhotoApp](https://freecatphotoapp.com)
+[Visit](https://codepen.io/Juan-Diego-Gutierrez-Torres/pen/pvEZbVw)
 
 ## Author
 

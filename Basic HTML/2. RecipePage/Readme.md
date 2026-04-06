@@ -18,7 +18,7 @@ Built as part of **FreeCodeCamp Responsive Web Design** exercises, optimized for
 
 ## Live Demo
 
-[View Image Reference](https://cdn.freecodecamp.org/curriculum/labs/recipe.jpg)
+[Visit](https://codepen.io/Juan-Diego-Gutierrez-Torres/pen/zxKLBaa)
 
 ## Author
 
