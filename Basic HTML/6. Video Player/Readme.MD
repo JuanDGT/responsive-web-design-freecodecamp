@@ -1,64 +1,81 @@
-# 🎬 HTML Video Player Project
+# 🎬 Modern HTML5 Video Player
 
-A modern and responsive HTML5 video player built with semantic HTML, modern CSS styling, and basic JavaScript interactions.  
-This project was developed as part of a FreeCodeCamp learning exercise and extended with custom UI improvements.
+A lightweight, responsive HTML5 video player built with native web technologies.  
+Designed as a clean UI component demonstrating semantic HTML, modern CSS styling, and basic JavaScript event handling.
 
 ---
 
 ## 🚀 Live Demo
-You can run this project locally or open it in CodePen: [Video Player](https://codepen.io/Juan-Diego-Gutierrez-Torres/pen/vEyEgPR)
-
-- HTML → `index.html`
-- CSS → `styles.css`
-- JS → `script.js`
+Check it out on CodePen:  
+[Video Player](https://codepen.io/Juan-Diego-Gutierrez-Torres/pen/vEyEgPR)
 
 ---
 
-## 🧠 Features
+## 📌 Overview
 
-- HTML5 `<video>` element with multiple formats:
-  - MP4
-  - WebM
-  - OGG
-  - QuickTime
-- Custom video poster (thumbnail)
-- Responsive centered layout
-- Modern glassmorphism-style UI
-- Hover animation effect on video container
-- Basic JavaScript event listeners (play/pause logging)
+This project implements a fully functional HTML5 video player using native browser capabilities.  
+It focuses on compatibility, responsiveness, and UI polish without external libraries or frameworks.
+
+The player supports multiple video formats to ensure cross-browser compatibility and uses a modern UI inspired by contemporary media platforms.
 
 ---
 
+## 🚀 Features
+
+- Native HTML5 `<video>` implementation
+- Multi-format support (MP4, WebM, OGG, QuickTime fallback)
+- Responsive design (mobile + desktop)
+- Custom poster image support
+- Clean, modern UI with glassmorphism styling
+- Subtle hover interactions for improved UX
+- Basic JavaScript event hooks for extensibility
 
 ---
 
-## 🎯 What I Learned
+## 🧱 Tech Stack
 
-- How to use the HTML `<video>` element properly
-- Handling multiple video formats for browser compatibility
-- Structuring a clean front-end project
-- Using modern CSS techniques (gradients, blur, hover effects)
-- Basic JavaScript event handling
+- HTML5 (semantic structure)
+- CSS3 (Flexbox, gradients, blur effects)
+- Vanilla JavaScript (DOM events)
 
 ---
 
-## 🔥 Future Improvements
+## 🧠 Key Design Decisions
 
-- Custom play/pause button UI
-- Progress bar and timeline control
-- Volume slider
-- Fullscreen toggle
-- Keyboard controls
-- Dark/light mode switch
+- **Native-first approach**: No external video libraries to keep bundle size minimal and maintain full browser control.
+- **Progressive enhancement**: Multiple `<source>` elements ensure fallback support across browsers.
+- **Separation of concerns**: HTML, CSS, and JS are strictly decoupled for maintainability.
+- **UI simplicity**: Focus on clarity and usability over visual complexity.
 
 ---
 
-## 👨‍💻 Author
+## ⚙️ Browser Compatibility
 
-Built as a learning project while practicing HTML, CSS, and JavaScript fundamentals.
+Tested on modern browsers:
+- Chrome
+- Firefox
+- Edge
+- Safari (limited codec support depending on format)
 
 ---
 
-## 📌 License
+## 📈 Possible Enhancements
 
-This project is for educational and personal use.
+- Custom video controls (play/pause, scrubber, volume)
+- Picture-in-picture support
+- Fullscreen toggle API integration
+- Keyboard accessibility controls
+- State management for playback UI
+- Theming system (dark/light mode)
+
+---
+
+## 🧑‍💻 Context
+
+This project was built as part of a learning workflow based on HTML5 video fundamentals, later extended into a UI-focused component to simulate a real-world reusable media module.
+
+---
+
+## 📄 License
+
+MIT License — free to use, modify, and distribute.
