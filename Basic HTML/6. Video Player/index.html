@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern Video Player</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <main class="container">
+
+    <h1 class="title">Video Player</h1>
+    <p class="subtitle">A clean, responsive demo built with HTML5</p>
+
+    <div class="video-card">
+
+      <video 
+        class="video"
+        width="100%" 
+        loop 
+        controls 
+        muted 
+        poster="https://cdn.freecodecamp.org/curriculum/labs/past-event2.jpg">
+
+        <source 
+          src="https://cdn.freecodecamp.org/curriculum/labs/what-is-the-map-method-and-how-does-it-work.mp4" 
+          type="video/mp4" />
+
+        <source 
+          src="https://cdn.freecodecamp.org/curriculum/labs/mapmethod.webm" 
+          type="video/webm" />
+
+        <source 
+          src="https://cdn.freecodecamp.org/curriculum/labs/mapmethod.ogg" 
+          type="video/ogg" />
+
+        <source 
+          src="https://cdn.freecodecamp.org/curriculum/labs/mapmethod.mov" 
+          type="video/quicktime" />
+
+      </video>
+
+    </div>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
