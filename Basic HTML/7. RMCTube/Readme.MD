@@ -43,7 +43,7 @@ No external frameworks or libraries are used.
 
 ## 🚀 Live Demo
 Check it out on CodePen:  
-[Video Player](https://codepen.io/Juan-Diego-Gutierrez-Torres/pen/vEyEgPR)
+[RMCTube](https://codepen.io/Juan-Diego-Gutierrez-Torres/pen/wBoBJWL)
 
 
 ---
