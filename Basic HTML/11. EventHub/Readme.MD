@@ -1,95 +1,106 @@
-# 🐾 Mr. Whiskers Blog
+# 🎟️ Event Hub
 
-Un blog personal ficticio dedicado a las aventuras de Mr. Whiskers 🐱  
-Proyecto hecho con HTML, CSS y JavaScript puro, enfocado en diseño moderno y estructura semántica.
-
----
-
-## 🌐 Vista general
-
-Este proyecto simula un blog moderno con diseño tipo Medium/Notion, incluyendo:
-
-- HTML semántico bien estructurado  
-- CSS moderno con cards, sombras y gradientes  
-- JavaScript básico para interacción (dark mode)  
-- Diseño limpio y minimalista  
-- UX simple y agradable  
+Event Hub is a modern, responsive event listing webpage built with pure HTML and CSS.  
+It features a clean dark UI, card-based layout, and a professional landing-page style design inspired by real event platforms.
 
 ---
 
-## 🚀 Tecnologías usadas
+## 🌐 Live Concept
 
-- HTML5  
-- CSS3  
-- JavaScript (Vanilla JS)  
-- Google Fonts (Inter)
+This project simulates a real-world event platform where users can browse:
 
----
+- Upcoming events
+- Past events with images and descriptions
 
-## 📂 Estructura del proyecto
-
-/project  
-│── index.html  
-│── styles.css  
-│── script.js  
-│── README.md  
+It focuses on clean structure, visual hierarchy, and modern UI design.
 
 ---
 
-## ✨ Características
+## ✨ Features
 
-### 🎨 Diseño
-- Header con gradiente moderno  
-- Tarjetas (cards) con sombra suave  
-- Efectos hover en posts  
-- Tipografía moderna y limpia  
+### 🎨 UI / Design
+- Modern dark theme with gradient header
+- Card-based layout for events
+- Smooth hover animations
+- Clean typography and spacing
+- Professional SaaS-style interface
 
-### ⚙️ Funcionalidad
-- Botón de Dark Mode  
-- Navegación por secciones (anchor links)  
-- Interacción básica con JavaScript  
+### 🧱 Structure
+- Semantic HTML5 elements:
+  - `header`
+  - `nav`
+  - `main`
+  - `section`
+  - `article`
+- Two main sections:
+  - Upcoming Events
+  - Past Events
 
-### 📱 UX
-- Diseño centrado y limpio  
-- Buena jerarquía visual  
-- Lectura fácil y agradable  
+### 🖼️ Media
+- Event images for past events
+- Responsive image styling
+- Clean visual presentation
 
----
-
-## 🌙 Dark Mode
-
-Incluye un modo oscuro activado mediante un botón flotante que alterna estilos en toda la página.
-
----
-
-## 🧠 Aprendizajes
-
-Este proyecto permite practicar:
-
-- HTML semántico profesional  
-- CSS moderno (variables, cards, layout)  
-- Manipulación del DOM en JavaScript  
-- Diseño UI básico tipo producto real  
+### 📱 Responsive Design
+- Mobile-friendly layout
+- Flexible cards and navigation
+- Works across all screen sizes
 
 ---
 
-## 🚀 Mejoras futuras
+## 🚀 Technologies Used
 
-- Posts dinámicos con JavaScript  
-- Responsive avanzado (mobile-first completo)  
-- Animaciones más avanzadas  
-- Integración con backend o API  
-- Migración a React o framework moderno  
+- HTML5 (semantic structure)
+- CSS3 (modern styling, flexbox, gradients, transitions)
 
 ---
 
-##  Autor
+## 📂 Project Structure
 
-Proyecto educativo inspirado en un blog ficticio de Mr. Whiskers 🐾, hecho por JuanDGT!
+```bash
+event-hub/
+│── index.html
+│── styles.css
+│── README.md
+```
+
+---
+
+## What I Learned
+
+This project helped reinforce:
+
+ - Semantic HTML structure for accessibility and SEO
+ - Modern CSS techniques (gradients, hover effects, transitions)
+ - Card-based UI design patterns
+ - Responsive layout principles
+ - Building clean landing pages without frameworks
+
+---
+
+## Future Improvements
+ - Add JavaScript filtering (Upcoming / Past toggle)
+ - Add event registration buttons
+ - Fetch events dynamically from an API
+ - Add animations (scroll reveal, fade-in effects)
+ - Convert into React or Next.js application
+ - Add search functionality for events
+
+---
+
+## Preview
+
+The layout includes:
+
+ - A hero-style gradient header
+ - Navigation links to sections
+ - Event cards with hover effects
+ - Image-supported past event section
+ - Clean dark UI with modern spacing
 
 ---
 
 ## Live Demo
 Check it out on CodePen:  
-[CatVlog](https://codepen.io/Juan-Diego-Gutierrez-Torres/pen/YPpXQMr)
+[EventHub](https://codepen.io/Juan-Diego-Gutierrez-Torres/pen/qEqdXOm)
 
