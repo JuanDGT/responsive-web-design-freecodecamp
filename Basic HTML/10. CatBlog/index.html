@@ -5,75 +5,65 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- Font moderna -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
-    <header>
-      <h1>Welcome to Mr. Whiskers' Blog Page!</h1>
-
-      <figure>
-        <img
-          src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/1.jpg"
-          alt="Mr. Whiskers sitting in a garden"
-          loading="lazy"
-        />
-        <figcaption>Mr. Whiskers in the Garden</figcaption>
-      </figure>
-
-      <nav aria-label="Main navigation">
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#posts">Posts</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+    <header class="hero">
+      <div class="hero-content">
+        <h1>Mr. Whiskers’ Blog</h1>
+        <p>A cozy corner of stories about my cat 🐾</p>
+      </div>
     </header>
 
+    <nav>
+      <a href="#about">About</a>
+      <a href="#posts">Posts</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
     <main>
-      <section id="about">
+      <section id="about" class="card">
         <h2>About</h2>
         <p>
-          Hi there! I'm Jane Doe, a passionate writer who finds endless inspiration in the antics of my beloved cat, Mr. Whiskers.
-        </p>
-        <p>
-          His playful nature and boundless energy keeps me on my toes. I love him so much.
+          Hi! I'm Jane Doe, and this blog is dedicated to my cat Mr. Whiskers.
+          He turns everyday life into something funny, chaotic and adorable.
         </p>
       </section>
 
       <section id="posts">
-        <h2>Posts</h2>
+        <h2 class="section-title">Latest Posts</h2>
 
-        <article>
-          <h3>Mr. Whiskers' First Day Home</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+        <article class="card post">
+          <h3>First Day Home</h3>
+          <p>He arrived like a tiny storm of fur and curiosity...</p>
         </article>
 
-        <article>
-          <h3>Mr. Whiskers' First Bath</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+        <article class="card post">
+          <h3>First Bath Disaster</h3>
+          <p>Water was the enemy. I was also the enemy.</p>
         </article>
 
-        <article>
-          <h3>Mr. Whiskers' First Birthday Party</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+        <article class="card post">
+          <h3>First Birthday Party</h3>
+          <p>He ignored the cake and attacked the balloons instead.</p>
         </article>
       </section>
     </main>
 
-    <footer>
-      <section id="contact" aria-labelledby="contact-title">
-        <h2 id="contact-title">Contact</h2>
-
-        <address>
-          <p>Phone: <a href="tel:5555555555">555-555-5555</a></p>
-          <p>Email: <a href="mailto:fake@email.com">fake@email.com</a></p>
-        </address>
-      </section>
+    <footer class="card footer" id="contact">
+      <h2>Contact</h2>
+      <address>
+        <p>📞 <a href="tel:5555555555">555-555-5555</a></p>
+        <p>📧 <a href="mailto:fake@email.com">fake@email.com</a></p>
+      </address>
     </footer>
+
+    <button id="themeBtn">Toggle Theme</button>
 
     <script src="script.js"></script>
   </body>
